@@ -4,7 +4,6 @@ import PasswordInput from "./PasswordInput.tsx";
 import RuleManager from "./RuleManager.tsx";
 import ToggleVisibility from "./ToggleVisibility.tsx";
 
-
 function App() {
   const [pass, setPass] = useState<string>('');
     const [visibility, setVisibility] = useState<boolean>(false);

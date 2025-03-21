@@ -32,7 +32,7 @@ function PasswordInput ({pass ,setPass, visibility} : PasswordInputProps) {
     }
 
     return(
-        <div className={'pass-input'}>
+        <div className={'pass-input border border-primary"'}>
             <input type={visibility ? 'textarea' : 'password'} value={pass ?? ""} onChange={inputHandler}/>
         </div>
     );
