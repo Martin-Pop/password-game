@@ -8,7 +8,7 @@ export interface RuleProp{
     passFulfilledCallback : (number:number) => void;
 }
 
-interface JustPass{
+export interface JustPass{
     pass : string
 }
 

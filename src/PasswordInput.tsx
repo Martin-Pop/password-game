@@ -23,7 +23,7 @@ function PasswordInput ({pass ,setPass, visibility} : PasswordInputProps) {
                     return prevPassword.slice(0, index) +""+ prevPassword.slice(index + 1);
                 }
             });
-        }, 10000); // 10 sekund pro test; reálně 120000 ms (2 minuty)
+        }, 60000); // 10 sekund pro test; reálně 120000 ms (2 minuty)
         return () => clearInterval(sabotageInterval);
     }, []);
 
